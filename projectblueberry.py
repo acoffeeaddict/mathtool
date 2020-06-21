@@ -1,10 +1,20 @@
 #greetings
 print("Welcome! To start, enter the following values of you 1st fraction. Than, press the enter key!")
-float(a) = input("Please enter your numerator ")
-float(b) = input("Please enter your denominator ")
-print(a/b)
+a = float(input ("Please enter your numerator"))
+b = float(input("Please enter your denominator "))
+c=a/b
 print("Please enter the numerator and denominator for the second fraction")
-d=input("Please enter your numerator ")
-e=input("Please enter your denominator for the second fraction ")
+d = float(input("Please enter your numerator "))
+e = float(input("Please enter your denominator for the second fraction "))
+lemon = (input("To get your answer, please select a following option.([Z].Add [X]Subtract [Y]Multiply [W]Divide "))
+if lemon in ['Z,z']:
+    print(c+f)
+if lemon in ['X,x']:
+    print(c-f)
+if lemon in ['Y,y']:
+    print(c*f)
+if lemon in ['W,w']:
+    print(c/f)
 f=(d/e)
-j=input("Press the according key to the operation you want to complete.(x,multiply)(/,Divide)(+add)(-subtract)?")
+q=c*f
+print(f)
