@@ -1,0 +1,10 @@
+#greetings
+print("Welcome! To start, enter the following values of you 1st fraction. Than, press the enter key!")
+float(a) = input("Please enter your numerator ")
+float(b) = input("Please enter your denominator ")
+print(a/b)
+print("Please enter the numerator and denominator for the second fraction")
+d=input("Please enter your numerator ")
+e=input("Please enter your denominator for the second fraction ")
+f=(d/e)
+j=input("Press the according key to the operation you want to complete.(x,multiply)(/,Divide)(+add)(-subtract)?")
